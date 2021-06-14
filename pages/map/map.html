@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="map.css">
+    <link rel="stylesheet" href="../normalize.css">
+    <title>Online Zoo</title>
+</head>
+
+<body>
+
+
+    <header class="header">
+        <h1 class="logo"><a href="../../index.html">zoo<br><span>online</span></a></h1>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="../../index.html">About</a></li>
+                <li><a href="../zoos page/panda/panda.html">Zoos</a></li>
+                <li><a href="../map/map.html" class="about__link">Map</a></li>
+                <li><a href="#footer">Contact us</a></li>
+                <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a></li>
+            </ul>
+        </nav>
+        <div class="switch-theme">
+            <div class="button__switch-theme">
+            </div>
+        </div>
+        <div class="bugrer-button">
+            <div class="line-40px"></div>
+            <div class="line-40px"></div>
+            <div class="line-33px"></div>
+        </div>
+    </header>
+    <section class="map">
+        <h2 class="title">Choose your favorite</h2>
+        <p class="descr">As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on
+            precious species and their habitat, and we are determined to assist in all aspects, including providing
+            veterinary support and raising much-needed emergency funds. Zoo Online saves wildlife and inspires everyone
+            to make conservation a priority in their lives. Animals have the right to a pain-free and happy life. They
+            have equal claim to the resources of this planet, and deserve a life of dignity and compassion.As a voice
+            for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their
+            habitat.</p>
+        <div class="slider">
+            <img src="../../assets/icons/left-arrow.png" alt="" class="left-arrow">
+            <div class="slider-wrapper">
+                <div class="slider-container">
+                    <div class="eclipse pre-active"><img src="../../assets/icons/Ellipse-1.png" alt=""></div>
+                    <div class="eclipse active"><img src="../../assets/icons/Ellipse-2.png" alt=""></div>
+                    <div class="eclipse"><img src="../../assets/icons/Ellipse-3.png" alt=""></div>
+                    <div class="eclipse"><img src="../../assets/icons/Ellipse-4.png" alt=""></div>
+                    <div class="eclipse"><img src="../../assets/icons/Eclipse-5.png" alt=""></div>
+                    <div class="eclipse"><img src="../../assets/icons/Ellipse-6.png" alt=""></div>
+                    <div class="eclipse"><img src="../../assets/icons/Ellipse-7.png" alt=""></div>
+                    <div class="eclipse"><img src="../../assets/icons/Ellipse-8.png" alt=""></div>
+                </div>
+
+            </div>
+
+
+
+            <img src="../../assets/icons/right-arrow.png" alt="" class="right-arrow">
+        </div>
+        <div class="progress-range">
+            <div><span>0<span  class="range-input_value">2</span>/</span>08</div>
+            <input type="range" min="0" max="7" step="1" value="1">
+        </div>
+        
+
+        <div class="map-container">
+            <img src="../../assets/images/map.png" alt="" class="map__image">
+            <div class="map-target_container eagle" title="Eagle">
+                <img src="../../assets/icons/map-target-point.png" alt="" class="map-target-point">
+                <img src="../../assets/icons/map-target-point-eagle.png" alt="" class="map-target-point-circle">
+
+            </div>
+            <div class="map-target_container crocodile" title="Alligator">
+                <img src="../../assets/icons/map-target-point.png" alt="" class="map-target-point">
+                <img src="../../assets/icons/map-target-point-crocodile.png" alt="" class="map-target-point-circle">
+
+            </div>
+            <div class="map-target_container gorilla" title="Gorilla">
+                <img src="../../assets/icons/map-target-point.png" alt="" class="map-target-point">
+                <img src="../../assets/icons/map-target-point-gorilla.png" alt="" class="map-target-point-circle">
+
+            </div>
+            <div class="map-target_container panda active-point" title="Panda">
+                <img src="../../assets/icons/map-target-point-active.png" alt="" class="map-target-point target-point-active">
+                <img src="../../assets/icons/map-target-point-panda.png" alt="" class="map-target-point-circle">
+
+            </div>
+        </div>
+        <button onclick="document.location='../zoos page/panda/panda.html'" class="button-to-zoo"><img
+                src="../../assets/icons/button-play.png" alt="">watch online</button>
+    </section>
+    <footer class="footer">
+
+
+        <nav class="nav">
+            <h2 class="logo"><a href="../../index.html">zoo<br><span>online</span></a></h2>
+            <ul>
+
+                <li><a href="../../index.html" class="about__link">About</a></li>
+                <li><a href="../zoos page/panda/panda.html">Zoos</a></li>
+                <li><a href="../map/map.html">Map</a></li>
+                <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a></li>
+                <li class="button"><button>donate for volunteers</button></li>
+            </ul>
+        </nav>
+        <div class="contact-us">
+
+            <form action="" name="footer" id="footer">
+                <p>Contact us</p>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <fieldset>
+                    <legend>Please enter your message</legend>
+                    <textarea name="" id="" maxlength="280"></textarea>
+                </fieldset>
+                <input type="checkbox" name="" id="checkbox" class="checkbox"><label for="checkbox">I agree to the
+                    processing of Personal Data</label>
+                <button type="submit"><img src="../../assets/icons/send_btn-footer.png" alt=""></button>
+            </form>
+            <div class="contacts">
+                <h4>ZOO Online Centre</h4>
+                <address>
+                    <p>132, Address District, Street Open Daily 10:00 am - 5:00 pm</p>
+                    <a href="tel:(702) 163-3433">T(702) 163-3433</a>
+                    <a href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a>
+                </address>
+                <ul>
+                    <li><a href=""><img src="../../assets/icons/instagram 1.png" alt=""></a></li>
+                    <li><a href=""><img src="../../assets/icons/twitter.png" alt=""></a></li>
+                    <li><a href=""><img src="../../assets/icons/vkontake.png" alt=""></a></li>
+                    <li><a href=""><img src="../../assets/icons/youtube.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-line">
+
+        </div>
+    </footer>
+    <script src="map.js"></script>
+</body>
+
+</html>
